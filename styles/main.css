@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+}
+header {
+  background-color: #3868d6;
+  padding: 16px;
+  color: white;
+}
+header h1 {
+  font-style: italic;
+}
+header nav ul li {
+  display: inline;
+  margin-left: 12px;
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  border-bottom: 2px solid #152856;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#sobre .container {
+  display: flex;
+  gap: 24px;
+}
+#sobre p {
+  text-align: justify;
+}
+section h2 {
+  margin-bottom: 16px;
+  padding: 16px 0;
+  color: #3868d6;
+  border-bottom: 2px solid #3868d6;
+}
+#sobre img {
+  margin-top: 16px;
+}
+#produtos .container-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 23.5%);
+  column-gap: 2%;
+}
+
+section h3 {
+  margin: 12px 0;
+}
+section button {
+  margin: 12px 0;
+  width: 100%;
+  padding: 8px;
+  background-color: #3868d6;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 4px;
+}
